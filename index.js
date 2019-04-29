@@ -1,3 +1,6 @@
 var Dog=require('./Dog')
-var dog = new Dog('Tom')
-dog.sayHi()
+var dog1 = new Dog('Tom')
+var dog2 = new Dog('Huggies')
+
+dog1.sayHi()
+dog2.sayHi()
